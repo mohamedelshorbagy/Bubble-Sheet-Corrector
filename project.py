@@ -10,7 +10,7 @@ from xlwt import *
 xlFile = Workbook()
 images = []
 
-for img in glob.glob('dataset/dataset/train/*.png'):
+for img in glob.glob('dataset/train/*.png'):
     images.append(img)
 
     
